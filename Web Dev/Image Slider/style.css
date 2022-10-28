@@ -1,0 +1,36 @@
+*{margin: 0;
+padding: 0;
+}
+
+img{
+    margin-left: 4%;
+    margin-top: 2.5%;
+    width: 90vw;
+    height: 90vh;
+}
+#prev{
+    cursor: pointer;
+    width: auto;
+    position: absolute;
+    top: 50vh;
+    left: 2%;
+    background-color: rgb(39, 220, 227);
+    font-weight: bold;
+    padding: 10px;
+}
+#next{
+    cursor: pointer;
+    width: auto;
+    position: absolute;
+    right: 3%;
+    top: 50vh;
+    background-color:rgb(39, 220, 227);
+    font-weight: bold;
+    padding: 10px;
+}
+#next:hover{
+    background-color: red;
+}
+#prev:hover{
+    background-color: red;
+}
