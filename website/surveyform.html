@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Survey Form</title>
+</head>
+
+<body>
+    <form action="index.php">
+        <div align="center">
+            <h1>A Survey Form</h1>
+            Enter your name:
+            <input type="text" name="UserName" size=30 placeholder="Name" required>
+            <br>
+            <br>
+            Enter your email:
+            <input type="email" name="Email" size=40 placeholder="Email">
+            <br>
+            <br>
+            Enter your password:
+            <input type="password" name="Password" size=40 placeholder="Password">
+            <br>
+            <br>
+            Tell us a little about yourself:
+            <textarea name="Comments" cols=30 rows=5 placeholder="Describe yourself"></textarea>
+            <br>
+            <br>
+            <b>Do you like watching movies?</b>
+            <label for="val1">
+                <input type="radio" name="movie" value=1 id="val1">Yes
+            </label>
+            <label for="val2">
+                <input type="radio" name="movie" value=2 id="val2">No
+            </label>
+            </p>
+            <u>Where do you watch movies?</u>
+            <p>
+                <label for="cinema">
+                    <input type="checkbox" name="Cinema" id="cinema">Cinema
+                </label>
+                <label for="television">
+                    <input type="checkbox" name="Television" id="television">Television
+                </label>
+                <label for="netflix">
+                    <input type="checkbox" name="Netflix" id="netflix">Netflix
+                </label>
+                <label for="other">
+                    <input type="checkbox" name="Other" id="other">Any other platform
+                </label>
+            </p>
+            What genre of movies do you like?
+            <select name="moviepref" required>
+                <option>
+                <option value=1 selected="true">comedy
+                <option value=2>romance
+                <option value=3>thriller
+                <option value=4>horror
+                <option value=5>biopic
+            </select>
+            <br>
+            <br>
+            <input type=submit value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
